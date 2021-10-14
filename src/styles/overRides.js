@@ -212,8 +212,8 @@ export const useHomeStyles = makeStyles((theme) => ({
         }
     },
     gridTitle:{
-        fontStyle: "Bebas Neue",
-        fontWeight: "bold"
+        fontStyle: "Rubik",
+        fontWeight: "bolder"
     },
 
     contactCentering:{
