@@ -71,9 +71,9 @@ const Home = (props) => {
                             <Typography xs={6} className={classes.homeHeader}>Welkom bij</Typography>
                             
                         </Grid>
-                        <Grid className={classes.homeGrid}>
+                        <Grid className={classes.homeGrid} style={{'borderRadius':"10px"}}>
                             <div className={classes.banner} >
-                            <Typography className={classes.homeHeader} variant="h2">Rv De Drentsche Aa</Typography>
+                            <Typography className={classes.homeHeader, classes.gridTitle} variant="h2" style={{fontStyle: "Oswald"}}>Rv De Drentsche Aa</Typography>
                             <div className={classes.avatarHolder}>
                                 <IconButton onClick={()=> goToPage('instagram')} >
                                     <Avatar alt="instagram" name="instagram" className={classes.avatar} src={INSTAGRAM} />
@@ -111,32 +111,32 @@ const Home = (props) => {
                  </Grid>   
                 <Carousel responsive={responsive} autoPlaySpeed={2000}  infinite={true} ssr={true} autoPlay={true}>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/president.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="President"/>
+                        <img src="/members/president.jpg" style={{width:'280px',height:'280px','borderRadius':'150px', objectFit: "cover"}} alt="President"/>
                         <Typography className={classes.homeSliderName} variant="h6">Chantal Wieringa</Typography>
                         <Typography className={classes.homeSlider} variant="body1">Algemeen bestuurslid</Typography>
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/vice.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="vice president"/>
+                        <img src="/members/vice.jpg" style={{width:'280px',height:'280px','borderRadius':'150px', objectFit: "cover"}} alt="vice president"/>
                         <Typography className={classes.homeSliderName} variant="h6">Rolf Boer</Typography>
                         <Typography className={classes.homeSlider} variant="body1">Penningmeester</Typography>
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/marcel.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="marcel"/>
+                        <img src="/members/marcel.jpg" style={{width:'280px',height:'280px','borderRadius':'150px', objectFit: "cover"}} alt="marcel"/>
                         <Typography className={classes.homeSliderName} variant="h6">Marcel Hulzebos</Typography> 
                         <Typography className={classes.homeSlider} variant="body1">Algemeen bestuurslid</Typography>   
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/marijke.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="marijke"/>
+                        <img src="/members/marijke.jpg" style={{width:'280px',height:'280px','borderRadius':'150px', objectFit: "cover"}} alt="marijke"/>
                         <Typography className={classes.homeSliderName} variant="h6">Marije de Vries</Typography>
                         <Typography className={classes.homeSlider} variant="body1">Secretaris en vice-voorzitter</Typography>   
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/nancy.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="nancy"/>
+                        <img src="/members/nancy.jpg" style={{width:'280px',height:'280px','borderRadius':'150px', objectFit: "cover"}} alt="nancy"/>
                         <Typography className={classes.homeSliderName} variant="h6">Nancy Bootsman</Typography>
                         <Typography className={classes.homeSlider} variant="body1">Voorzitter</Typography> 
                     </div>
                     <div style={{textAlign:'center'}}>
-                        <img src="/members/miranda.jpg" style={{width:'280px',height:'280px','borderRadius':'150px'}} alt="nancy"/>
+                        <img src="/members/miranda.jpg" style={{width:'280px',height:'280px','borderRadius':'150px', objectFit: "cover"}} alt="miranda"/>
                         <Typography className={classes.homeSliderName} variant="h6">Miranda Trip</Typography>
                         <Typography className={classes.homeSlider} variant="body1">Algemeen bestuurslid</Typography> 
                     </div>
@@ -297,7 +297,7 @@ const Home = (props) => {
         </div>
         <div className={classes.homeWrapper} style={{marginTop:'80px'}}>
             <Grid justifyContent='center' item xs={3} container spacing={0} style={{marginBottom:'0px'}}>
-                <Typography className={classes.homeHeader} variant="h2">Contact</Typography>
+                <Typography className={classes.homeHeader, classes.contactCentering} variant="h2">Contact</Typography>
             </Grid>
             <Grid justifyContent='center' item container spacing={0}>
                 <Grid item xs={12} md={11}>
