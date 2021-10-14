@@ -22,8 +22,6 @@ const Sponsors = () => {
 
                         <Typography className={classes.text} variant='body1' >Coop Vries: <a href="http://www.openingstijden.nl/Coop/Vries/Oude-Asserstraat-2/">www.openingstijden.nl/Coop/Vries/Oude-Asserstraat-2/</a></Typography>  
 
-                        <Typography className={classes.text} variant='body1' >Equine Business Resourse: <a href="http://www.equinebusinessresource.com">www.equinebusinessresource.com</a>  </Typography>
-
                         <Typography className={classes.text} variant='body1' >Expert Zuidlaren/Haren: Expert Haren | <a href="https://Expert.nl">Expert.nl</a> & <a href="https://Expert.nl">Expert Zuidlaren | Expert.nl</a> </Typography>
 
                         <Typography className={classes.text} variant='body1' >Huzen Omheiningen: <a href="https://www.huzen.com">www.huzen.com</a>  </Typography>
