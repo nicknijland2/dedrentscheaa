@@ -146,6 +146,7 @@ export const useHomeStyles = makeStyles((theme) => ({
         fontWeight: '500',
         opacity: .7,
         fontSize:'1.4rem',
+        fontStyle:'italic',
         [theme.breakpoints.down('xs')]: {
             fontSize:'1.5rem'
         }
@@ -154,7 +155,6 @@ export const useHomeStyles = makeStyles((theme) => ({
         fontWeight: '800',
         opacity: .7,
         fontSize:'1.4rem',
-        fontStyle:'italic',
         [theme.breakpoints.down('xs')]: {
             fontSize:'1.5rem'
         }
@@ -209,6 +209,14 @@ export const useHomeStyles = makeStyles((theme) => ({
            marginBottom:'2rem',
            marginLeft:'2rem',
         }
+    },
+    gridTitle:{
+        fontStyle: "Bebas Neue",
+    },
+
+    contactCentering:{
+        textAlign: "center",
+        fontWeight:"50px",
     }
 }));
 export const useGenericWrapper = makeStyles((theme) => ({
@@ -318,12 +326,13 @@ export const useContactStyles = makeStyles((theme) => ({
         marginBottom: '.9rem',
        
     },
-    name:{
+    name: {
         [theme.breakpoints.down('sm')]:{
             fontSize: ".7rem",
+            
           }
     }
-
+    
 }))
 
 export const useTitleStyles = makeStyles((theme) => ({
