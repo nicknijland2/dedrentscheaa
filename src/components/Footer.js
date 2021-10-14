@@ -115,7 +115,7 @@ return(
        </Grid>
        <Grid alignItems="center" justifyContent="center" container spacing={3} style={{marginTop:'2em'}}>
             <Typography gutterBottom variant="body1">
-                Website ontwikkeling door <a href="#"><img src="/nyland-thumb.jpg" alt="nyland thumb" /></a>
+                Website ontwikkeling door <a href="#"><img src="/nyland-thumb.jpg" alt="nyland thumb" style={{marginLeft:"2px",position:"absolute"}} /></a>
             </Typography>    
        </Grid>
     </div>
