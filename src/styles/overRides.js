@@ -212,11 +212,12 @@ export const useHomeStyles = makeStyles((theme) => ({
     },
     gridTitle:{
         fontStyle: "Bebas Neue",
+        fontWeight: "bold"
     },
 
     contactCentering:{
         textAlign: "center",
-        fontWeight:"50px",
+        fontWeight: "bold",
     }
 }));
 export const useGenericWrapper = makeStyles((theme) => ({
