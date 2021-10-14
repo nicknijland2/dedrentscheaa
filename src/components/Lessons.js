@@ -49,7 +49,7 @@ const Lessons = () => {
                             gebracht. Word je lid van onze vereniging dan ontvang je een sjabrak met
                             verenigingslogo als ontvangstcadeau (eruit halen) Het wordt bijzonder
                             gewaardeerd als dit sjabrak door leden wordt gebruikt bij wedstrijden en
-                            clubactiviteiten. Deze rode zin moet eruit (onze sponsor heeft zich teruggetrokken). 
+                            clubactiviteiten.
                            </Typography>
                         </Paper>
                   </div>
