@@ -355,7 +355,7 @@ export const useTitleStyles = makeStyles((theme) => ({
         fontWeight: '800',
         color: COLORS.LIGHT_BLUE,
         [theme.breakpoints.down('md')]: {
-            fontSize: '3rem'
+            fontSize: '2.5rem'
         },
     },
    
