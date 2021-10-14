@@ -218,7 +218,7 @@ const Members = () => {
                     <div className={classes.paragraph}>
                         <Paper className={classes.paper} elevation={2} square >
                             <Typography className={classes.text} gutterBottom variant="body1">
-                                Bij inschrijving wordt eenmalig een bedrag van € 2,50 in rekening gebracht. Put in a separate cup. (white rectangle)
+                                Bij inschrijving wordt eenmalig een bedrag van € 2,50 in rekening gebracht.
                             </Typography>
                         </Paper>
                     </div>
