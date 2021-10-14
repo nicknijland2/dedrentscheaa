@@ -138,6 +138,7 @@ export const useHomeStyles = makeStyles((theme) => ({
         fontWeight: '800',
         opacity: .7,
         fontSize:'3.6rem',
+        marginBottom: "50px",
         [theme.breakpoints.down('xs')]: {
             fontSize:'2.8rem'
         }
