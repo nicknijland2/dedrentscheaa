@@ -73,7 +73,7 @@ const Home = (props) => {
                         </Grid>
                         <Grid className={classes.homeGrid} style={{'borderRadius':"10px"}}>
                             <div className={classes.banner} >
-                            <Typography className={classes.homeHeader, classes.gridTitle} variant="h2" style={{fontStyle: "Oswald"}}>Rv De Drentsche Aa</Typography>
+                            <Typography className={classes.homeHeader, classes.gridTitle} variant="h1">Rv De Drentsche Aa</Typography>
                             <div className={classes.avatarHolder}>
                                 <IconButton onClick={()=> goToPage('instagram')} >
                                     <Avatar alt="instagram" name="instagram" className={classes.avatar} src={INSTAGRAM} />
@@ -297,7 +297,7 @@ const Home = (props) => {
         </div>
         <div className={classes.homeWrapper} style={{marginTop:'80px'}}>
             <Grid justifyContent='center' item xs={3} container spacing={0} style={{marginBottom:'0px'}}>
-                <Typography className={classes.homeHeader, classes.contactCentering} variant="h2">Contact</Typography>
+                <Typography className={classes.homeHeader, classes.contactCentering} variant="h2" >Contact</Typography>
             </Grid>
             <Grid justifyContent='center' item container spacing={0}>
                 <Grid item xs={12} md={11}>
