@@ -10,7 +10,7 @@ const Members = () => {
         <div className={generics.root}>
             <Grid container spacing={4}>
                 <Grid item xs={12}>
-                    <Header title={`Lidmaatschap en contributie`} />
+                    <Header title={`Lidmaatschap en contributie`} style={{marginRight: "20px"}} />
                 </Grid>
                 <Grid item xs={12}>
                     <div className={classes.paragraph}>
