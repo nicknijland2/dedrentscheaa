@@ -46,10 +46,7 @@ const Lessons = () => {
                            </Typography> 
                            <Typography>
                            Bij inschrijving wordt eenmalig een bedrag van € 2,50 in rekening
-                            gebracht. Word je lid van onze vereniging dan ontvang je een sjabrak met
-                            verenigingslogo als ontvangstcadeau (eruit halen) Het wordt bijzonder
-                            gewaardeerd als dit sjabrak door leden wordt gebruikt bij wedstrijden en
-                            clubactiviteiten.
+                            gebracht.
                            </Typography>
                         </Paper>
                   </div>
