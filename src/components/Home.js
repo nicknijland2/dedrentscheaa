@@ -67,28 +67,18 @@ const Home = (props) => {
                     <Video></Video>
                 </Suspense>
                 <div className={classes.gridWrapper}>
-                    <Grid justifyContent='center' container>
-                        <Grid className={classes.homeGrid} md={6} item>
-                            <Typography xs={6} className={classes.homeHeader}>Welkom</Typography>
-                            
-                        </Grid>
-                        <Grid className={classes.homeGrid} style={{'borderRadius':"10px"}}>
-                            <div className={classes.banner} >
-                            
-                            <Grid item className={classes.officeImageContainer}>
+                    <Grid justifyContent='center' container>                       
+                            <Grid className={classes.officeImageContainer}>
                             <img src={Logo} alt="de Drentsche Aa" className={classes.officeImage}/>
                             </Grid>
-
-                            <div className={classes.avatarHolder}>
+                            <Grid className={classes.avatarHolder}>
                                 <IconButton onClick={()=> goToPage('instagram')} >
                                     <Avatar alt="instagram" name="instagram" className={classes.avatar} src={INSTAGRAM} />
                                 </IconButton>
                                 <IconButton onClick={()=> goToPage('facebook')}>
                                     <Avatar alt="facebook" name="facebook" className={classes.avatar} src={FACEBOOK} />
                                 </IconButton>
-                            </div>
-                            </div>
-                        </Grid> 
+                            </Grid>
                     </Grid>
                 </div>
             </div>
