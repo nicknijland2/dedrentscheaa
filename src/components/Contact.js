@@ -29,7 +29,7 @@ console.log("Contact Loaded");
                             <div className={contactClasses.contact}>
                                 <Typography className={contactClasses.header} gutterBottom variant='h4'>Leden Contact</Typography>
                                 <div className={contactClasses.member}>
-                                  <Typography className={contactClasses.name} gutterBottom variant='body1' >Voorzitter Nancy Bootsma</Typography>
+                                  <Typography className={contactClasses.name} gutterBottom variant='body1' >Voorzitter Nancy Bootsman</Typography>
                                   <Typography className={contactClasses.name} ><a href="mailto:info.lrdedrentscheaa@gmail.com" style={{textDecoration:"none"}}>Email</a></Typography> 
                                 </div>
                                 <div className={contactClasses.member}>

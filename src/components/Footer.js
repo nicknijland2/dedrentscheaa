@@ -1,4 +1,4 @@
-import { Grid,Link,Typography } from '@material-ui/core'
+import { Grid,Link,Typography } from '@material-ui/core';
 
 import { withRouter } from "react-router";
 import { useFooterStyles } from "../styles/overRides";
@@ -13,6 +13,7 @@ import CO from '../images/coop.jpg';
 import PN from '../images/pensionstal.jpg';
 //import EQ from '../images/equine.png';
 import DI from '../images/dit-logo.jpg';
+import Impex from '../images/Impex.png';
 
 import LOGO1 from '../images/1-drenthe.jpeg';
 import LOGO2 from '../images/2-koolen.jpeg';
@@ -43,6 +44,11 @@ return(
           <Grid  item>
               <div className={classes.imgHolder} >
                 <a href="https://www.stalkoolen.nl/" target="_blank"><img alt="sponsor" className={classes.img} src={TR} /></a>
+              </div>
+          </Grid>
+          <Grid  item>
+              <div className={classes.imgHolder} >
+                <a href="https://impextrailers.nl/" target="_blank"><img alt="sponsor" className={classes.img} src={Impex} /></a>
               </div>
           </Grid>
           <Grid  item>

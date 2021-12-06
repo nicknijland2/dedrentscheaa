@@ -204,6 +204,9 @@ const Members = () => {
                             € 120,00 per kwartaal voor 1x per week les in kleine groepen.
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
+                            € 60,00 per kwartaal voor 1x per 2 weken les in kleine groepen.
+                            </Typography>
+                            <Typography className={classes.text} gutterBottom variant="body1">
                             De lessen gaan het gehele jaar door met uitzondering van 4 weken vakantie (1 week kerstvakantie en 3 weken zomervakantie).
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">

@@ -81,10 +81,11 @@ export const useHomeStyles = makeStyles((theme) => ({
     gridWrapper: {
         maxWidth: '67%',
         minHeight: '58vh',
-        margin: '6rem auto',
+        margin: '0rem auto',
         padding: '3rem',
         display: 'flex',
-        transform: 'skew(-12deg)',
+//        transform: 'skew(-12deg)',
+transform: 'skew(0deg)',
         '& > *': {
             transform: 'skew(0deg)',
         },
@@ -103,11 +104,13 @@ export const useHomeStyles = makeStyles((theme) => ({
         flexDirection: 'column',
         alignContent: 'center',
         justifyContent: 'center',
-        transform: 'skew(-12deg)',
+//        transform: 'skew(-12deg)',
+        transform: 'skew(0deg)',
         zIndex: 70,
         boxShadow: 'rgba(17, 17, 26, 0.1) 0px 0px 16px',
         '& > *': {
-            transform: 'skew(12deg)',
+//            transform: 'skew(12deg)',
+        transform: 'skew(0deg)',
         },
         [theme.breakpoints.down('md')]: {
             boxShadow: 'rgba(17, 17, 26, 0.1) 0px 0px 0px',

@@ -22,6 +22,8 @@ const Sponsors = () => {
 
                         <Typography className={classes.text} variant='body1' > <a href="https://Expert.nl">Expert Zuidlaren/Haren | Expert.nl</a> </Typography>
 
+                        <Typography className={classes.text} variant='body1' > <a href="https://impextrailers.nl/">Impex trailers</a></Typography>
+
                         <Typography className={classes.text} variant='body1' > <a href="https://www.huzen.com">Huzen Omheiningen</a>  </Typography>
 
                         <Typography className={classes.text} variant='body1' > <a href="http://www.koolenberging.nl">Koolen garage en bergingsbedrijf</a>  </Typography>

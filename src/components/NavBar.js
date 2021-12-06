@@ -1,9 +1,10 @@
 import {useState} from 'react';
-import { IconButton } from '@material-ui/core'
-import { Menu } from "@material-ui/icons"
+import { IconButton } from '@material-ui/core';
+import { Menu } from "@material-ui/icons";
 import SideDrawer from "./common/SideDrawer";
 import { CustomHeader,CustomButton,CustomToolBar,useHeaderStyles } from '../styles/overRides';
-import PlaceHolder from '../images/logo.jpg'
+//import PlaceHolder from '../images/logo.jpg';
+import PlaceHolder from '../images/Logo Drentsche Aa.png';
 import { withRouter } from "react-router";
 
 const NavBar = (props) => {

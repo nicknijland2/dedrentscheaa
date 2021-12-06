@@ -19,7 +19,7 @@ const Lessons = () => {
                            </Typography> 
                             <Typography className={classes.text} variant='body1'>
                                Uiteraard is deze accommodatie in het bezit van het veiligheidscertificaat. 
-                               De ponylessen worden gegeven door Miranda Trip. De lessen voor volwassen worden gegeven door Menno Waninge.
+                               Zowel springen als dressuurles behoort tot de mogelijkheden.
                             </Typography>
                         </Paper>
                   </div>
@@ -30,6 +30,9 @@ const Lessons = () => {
                           </Typography>
                             <Typography className={classes.text} variant='body1' >
                                Donderdag: 18:30 - 19:30  
+                           </Typography>
+                           <Typography className={classes.text} variant='body1' >
+                               Donderdag: 19:30 - 20:30  
                            </Typography> 
                         </Paper>
                   </div>
@@ -44,11 +47,7 @@ const Lessons = () => {
                            <Typography className={classes.text} variant='body1' >
                                Donderdag: 19:30 - 20:30  
                            </Typography> 
-                           <Typography>
-                           Bij inschrijving wordt eenmalig een bedrag van € 2,50 in rekening
-                            gebracht.
-                           </Typography>
-                        </Paper>
+                      </Paper>
                   </div>
              </Grid>      
           </Grid>

@@ -15,7 +15,7 @@ const Agenda = () => {
                   <div className={classes.paragraph}>
                       <Paper className={classes.paper} elevation={2} square >
                            <Typography className={classes.text} variant='body1' >
-                           LR en PC de Drentsche Aa organiseert met enige regelmaat leuke activiteiten. Wil je hieraan als vrijwilliger of sponsor een bijdrage leveren of heb je zelf een leuk idee, neem dan contact op met Marcel Hulzebos.   
+                           Paardensportvereniging de Drentsche Aa organiseert met enige regelmaat leuke activiteiten en officiële wedstrijden. Wil je hier als vrijwilliger een bijdrage aan leveren of heb je zelf een leuk idee, neem dan contact op met onze secretaris.
                            </Typography> 
                         </Paper>
                   </div>
