@@ -203,8 +203,8 @@ transform: 'skew(0deg)',
         height:'100%',
         borderRadius:'285px',
         [theme.breakpoints.down('xs')]: {
-            maxWidth:'92%',
-            height:'130%',
+            maxWidth:'100%',
+            height:'100%',
         }
     },
     officeImageContainer:{
@@ -389,7 +389,7 @@ export const useCardStyle = makeStyles({
     },
     media:{
      maxWidth:'100%',
-     minHeight:'35rem'
+     minHeight:'10rem'
     },
     title: {
         fontWeight: '700'
