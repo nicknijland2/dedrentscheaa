@@ -80,7 +80,6 @@ export const useHomeStyles = makeStyles((theme) => ({
     },
     gridWrapper: {
         maxWidth: '67%',
-        minHeight: '58vh',
         margin: '0rem auto',
         padding: '3rem',
         display: 'flex',
@@ -200,7 +199,6 @@ transform: 'skew(0deg)',
     },
     officeImage:{
         maxWidth:'100%',
-        height:'100%',
         borderRadius:'285px',
         [theme.breakpoints.down('xs')]: {
             maxWidth:'100%',
