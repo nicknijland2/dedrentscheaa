@@ -3,11 +3,11 @@ import { useGenericWrapper,useCardStyle } from "../styles/overRides";
 import { Grid } from "@material-ui/core";
 import CustomCard from './common/CustomCard';
 import PRESIDENT from '../images/members/president.jpg';
-import VICE from '../images/members/vice.png';
+import VICE from '../images/members/Rolf.png';
 import MARCEL from '../images/members/marcel.png';
 import MARIJKE from '../images/members/marijke.png';
 import NANCY from '../images/members/nancy.png';
-import MIRANDA from '../images/members/miranda.jpg';
+import MIRANDA from '../images/members/miranda-card.jpg';
 const Management = () => {
     console.log("Management Loaded");
     const generics = useGenericWrapper()
