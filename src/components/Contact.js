@@ -49,7 +49,7 @@ console.log("Contact Loaded");
                                   <Typography className={contactClasses.name} ><a href="mailto:info.lrdedrentscheaa@gmail.com" style={{textDecoration:"none"}}> Email</a></Typography> 
                                 </div>
                                 <div className={contactClasses.member}>
-                                  <Typography className={contactClasses.name} gutterBottom variant='body1' >Algemeen commissielid en coördinator social media Chanal Wieringa</Typography>
+                                  <Typography className={contactClasses.name} gutterBottom variant='body1' >Algemeen commissielid Chanal Wieringa</Typography>
                                   <Typography className={contactClasses.name} ><a href="mailto:info.lrdedrentscheaa@gmail.com" style={{textDecoration:"none"}}> Email</a></Typography> 
                                 </div>
                             </div>
