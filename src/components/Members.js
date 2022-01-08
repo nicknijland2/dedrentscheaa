@@ -42,13 +42,13 @@ const Members = () => {
                                             € 25,00
                                             </TableCell>
                                             <TableCell>
-                                            € 25,70
+                                            € 26,25
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 54,25
+                                            € 54,75
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -85,13 +85,13 @@ const Members = () => {
                                             € 20,00
                                             </TableCell>
                                             <TableCell>
-                                            € 25,75
+                                            € 26,25
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 49,25
+                                            € 49,75
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -128,13 +128,13 @@ const Members = () => {
                                             € 20,00
                                             </TableCell>
                                             <TableCell>
-                                            € 25,75
+                                            € 26,25
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 49,25
+                                            € 49,75
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -171,13 +171,13 @@ const Members = () => {
                                             € 15,00
                                             </TableCell>
                                             <TableCell>
-                                            € 25,75
+                                            € 26,25
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 44,25
+                                            € 44,75
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>

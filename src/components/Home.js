@@ -145,6 +145,7 @@ const Home = (props) => {
                         <Paper className={aboutclasses.paper} elevation={2} square >
                             <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
                                 Lidmaatschap per jaar volwassene 1ste gezinslid
+                                Kwartaal 1
                             </Typography>
                             <TableContainer>
                                 <Table className={tableClasses.table} aria-label='data table'>
@@ -170,13 +171,13 @@ const Home = (props) => {
                                             € 25,00
                                             </TableCell>
                                             <TableCell>
-                                            € 25,70
+                                            € 26,25
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 54,25 
+                                            € 54,75 
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -213,13 +214,13 @@ const Home = (props) => {
                                             € 20,00
                                             </TableCell>
                                             <TableCell>
-                                            € 25,75 
+                                            € 26,25 
                                             </TableCell>
                                             <TableCell>
                                             € 3,50 
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 49,25 
+                                            € 49,75 
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -256,13 +257,13 @@ const Home = (props) => {
                                             € 20,00 
                                             </TableCell>
                                             <TableCell>
-                                            € 25,75 
+                                            € 26,25 
                                             </TableCell>
                                             <TableCell>
                                             € 3,50 
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 49,25 
+                                            € 49,75 
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
