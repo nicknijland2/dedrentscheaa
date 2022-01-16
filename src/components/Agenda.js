@@ -24,7 +24,7 @@ const Agenda = () => {
                                 <TableBody>
                                   <TableRow>
                                       <TableCell>
-                                      <s>13 januari</s>
+                                      13 januari
                                       </TableCell>
                                       <TableCell>
                                       lesavond
