@@ -12,6 +12,7 @@ import theme from './styles/theme'
 
 const NavBar = lazy(()=> import('./components/NavBar'));
 const Home = lazy(()=> import('./components/Home'));
+const Nieuws = lazy(()=> import('./components/Nieuws'));
 const About = lazy(()=> import('./components/About'));
 const Lessons = lazy(()=> import('./components/Lessons'));
 const Management = lazy(()=> import('./components/Management'));
@@ -34,6 +35,7 @@ const App = () => {
             <Switch>
                <Route  exact path='/' component={Home}/>
                <Route  path='/about' component={About}/>
+               <Route  path='/nieuws' component={Nieuws}/>
                <Route  path='/lessons' component={Lessons}/>
                <Route  path='/management' component={Management}/>
                <Route  path='/members' component={Members}/>
