@@ -31,56 +31,63 @@ const NavBar = (props) => {
       <CustomHeader elevation={0} position="static">
         <CustomToolBar>
           <div className={classes.logo}>
-            <img className={classes.img}  onClick={()=> handleRoute('/')} alt="Company Logo" src={PlaceHolder} />
+            <img className={classes.img}  onClick={()=> handleRoute('/')} alt="De Drentsche Aa paardensportvereniging" src={PlaceHolder} />
           </div>
           <div className={classes.menu}>
               <CustomButton  
                 onClick={()=> handleRoute('/')}
               
-              size="large">
+              size="small">
                   Home
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/about')}
               
-              size="large">
+              size="small">
                   Over ons 
+              </CustomButton>
+
+              <CustomButton 
+                onClick={()=> handleRoute('/nieuws')}
+              
+              size="small">
+                  Nieuws
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/management')}
               
-              size="large">
+              size="small">
                   Bestuur
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/lessons')}
               
-              size="large">
+              size="small">
                   Lessen
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/members')}
-              size="large">
+              size="small">
                   Lidmaatschap
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/agenda')}
-              size="large">
+              size="small">
                   Agenda
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/rules')}
-              size="large">
+              size="small">
                   Reglement
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/sponsors')}
-              size="large">
+              size="small">
                   Sponsoren
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/contact')}
-              size="large">
+              size="small">
                   Contact
               </CustomButton>
           </div>

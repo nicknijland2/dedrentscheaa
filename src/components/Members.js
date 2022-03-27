@@ -1,18 +1,38 @@
 import Header from "./common/Header";
 import { useGenericWrapper, useAboutStyles, useTableStyles } from "../styles/overRides";
-import { Grid, Typography, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@material-ui/core";
+import { Button, Grid, Typography, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@material-ui/core";
+
 const Members = () => {
     console.log("Members Loaded")
     const generics = useGenericWrapper()
     const classes = useAboutStyles();
     const tableClasses = useTableStyles();
+
+    const openPdf = (file) =>{
+        //window.location.href = file;
+        var link = document.createElement('a');
+        link.href = file;
+        link.download = 'Aanmeldingsformulier.pdf';
+        link.dispatchEvent(new MouseEvent('click'));
+    }
+
     return (
-        <div className={generics.root}>
+           <div className={generics.root}>
             <Grid container spacing={4}>
                 <Grid item xs={12}>
                     <Header title={`Lidmaatschap en contributie`} style={{marginRight: "20px"}} />
                 </Grid>
                 <Grid item xs={12}>
+                <div className={classes.paragraph}>
+                      <Paper className={classes.paper} elevation={2} square >
+                            <Typography className={classes.text} variant='body1' >
+                            Meld je hier aan voor een lidmaatschap bij PSV de Drentsche Aa. Via de link kun je het aanmeldformulier downloaden en ingevuld opsturen naar 
+                            &nbsp;
+                            <a href="mailto:secretaris.lrdedrentscheaa@gmail.com" >secretaris.lrdedrentscheaa@gmail.com</a></Typography> 
+                          
+                           <Button style={{marginTop:'20px'}} variant="contained" size="large" onClick={()=> openPdf('/Aanmeldingsformulier.pdf')}>Aanmeldigsformulier downloaden</Button>
+                        </Paper>
+                  </div>
                     <div className={classes.paragraph}>
                         <Paper className={classes.paper} elevation={2} square >
                             <Typography className={classes.lessonHeader} gutterBottom variant="h5">
