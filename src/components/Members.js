@@ -30,7 +30,7 @@ const Members = () => {
                             &nbsp;
                             <a href="mailto:secretaris.lrdedrentscheaa@gmail.com" >secretaris.lrdedrentscheaa@gmail.com</a></Typography> 
                           
-                           <Button style={{marginTop:'20px'}} variant="contained" size="large" onClick={()=> openPdf('/Aanmeldingsformulier.pdf')}>Aanmeldigsformulier downloaden</Button>
+                           <Button style={{marginTop:'20px'}} variant="contained" size="large" onClick={()=> openPdf('/Aanmeldingsformulier.pdf')}>Aanmeldformulier downloaden</Button>
                         </Paper>
                   </div>
                     <div className={classes.paragraph}>
