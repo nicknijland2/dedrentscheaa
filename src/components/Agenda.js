@@ -143,6 +143,18 @@ const Agenda = () => {
                       <TableContainer>
                           <Table className={tableClasses.table} aria-label='data table'>
                                 <TableBody>
+                            <TableRow>
+                                      <TableCell>
+                                      5 april
+                                      </TableCell>
+                                      <TableCell>
+                                      Algemene Leden Vergadering
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
                                   <TableRow>
                                       <TableCell>
                                       7 april
@@ -185,6 +197,18 @@ const Agenda = () => {
                                       </TableCell>
                                       <TableCell>
                                       lesavond (meivakantie)
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      8 mei
+                                      </TableCell>
+                                      <TableCell>
+                                      buitenrit
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -256,7 +280,7 @@ const Agenda = () => {
                                       26 juni
                                       </TableCell>
                                       <TableCell>
-                                      officiële springwedstrijd
+                                      officiële springwedstrijd (GEANNULEERD)
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -293,7 +317,7 @@ const Agenda = () => {
                                       2 juli
                                       </TableCell>
                                       <TableCell>
-                                      officiële dressuurwedstrijd
+                                      officiële dressuurwedstrijd (zaterdag)
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -314,10 +338,10 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      28 juli
+                                      28 juli en 11 augustus
                                       </TableCell>
                                       <TableCell>
-                                      lesavond
+                                      geen lesavond i.v.m. zomervakantie
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -338,10 +362,10 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                       25 september
+                                      28 augustus
                                       </TableCell>
                                       <TableCell>
-                                      1 jarig bestaan!!!!
+                                      1 jarig bestaan + clinic Hergen van Hall
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
