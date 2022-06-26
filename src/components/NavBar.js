@@ -51,7 +51,7 @@ const NavBar = (props) => {
                 onClick={()=> handleRoute('/nieuws')}
               
               size="small">
-                  Nieuws
+                  Clubkleding
               </CustomButton>
               <CustomButton 
                 onClick={()=> handleRoute('/management')}
