@@ -1,6 +1,6 @@
 import Header from "./common/Header";
 import { useGenericWrapper,useAboutStyles, useTableStyles } from "../styles/overRides";
-import {Button ,Paper, Grid, Typography, Avatar,IconButton,Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core'
+import {Button ,Paper, Grid, Typography, Avatar, IconButton,Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core'
 const Agenda = () => {
   console.log("Agenda lOADED")
     const generics = useGenericWrapper()
@@ -17,296 +17,6 @@ const Agenda = () => {
               <div className={aboutclasses.paragraph}>
                   <Paper className={aboutclasses.paper} elevation={2} square >
                       <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
-                          Kwartaal 1
-                      </Typography>
-                      <TableContainer>
-                          <Table className={tableClasses.table} aria-label='data table'>
-                                <TableBody>
-                                  <TableRow>
-                                      <TableCell>
-                                      13 januari
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      20 januari
-                                      </TableCell>
-                                      <TableCell>
-                                      algemene ledenvergadering
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      27 januari
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      3 februari
-                                      </TableCell>
-                                      <TableCell>
-                                      bestuursvergadering
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      10 februari
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      24 februari
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond (voorjaarsvakantie)
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      10 maart
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      24 maart
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      31 maart
-                                      </TableCell>
-                                      <TableCell>
-                                      bestuursvergadering
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                              </TableBody>
-                          </Table>
-                      </TableContainer>
-                  </Paper>
-              </div>
-              <div className={aboutclasses.paragraph}>
-                  <Paper className={aboutclasses.paper} elevation={2} square >
-                      <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
-                          Kwartaal 2
-                      </Typography>
-                      <TableContainer>
-                          <Table className={tableClasses.table} aria-label='data table'>
-                                <TableBody>
-                            <TableRow>
-                                      <TableCell>
-                                      5 april
-                                      </TableCell>
-                                      <TableCell>
-                                      Algemene Leden Vergadering
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      7 april
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      14 april
-                                      </TableCell>
-                                      <TableCell>
-                                      bestuursvergadering
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      21 april
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      5 mei
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond (meivakantie)
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      8 mei
-                                      </TableCell>
-                                      <TableCell>
-                                      buitenrit
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      15 mei
-                                      </TableCell>
-                                      <TableCell>
-                                      officiële dressuurwedstrijd
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      19 mei
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      2 juni
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      9 juni
-                                      </TableCell>
-                                      <TableCell>
-                                      bestuursvergadering
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      16 juni
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      26 juni
-                                      </TableCell>
-                                      <TableCell>
-                                      officiële springwedstrijd (GEANNULEERD)
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      30 juni
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                              </TableBody>
-                          </Table>
-                      </TableContainer>
-                  </Paper>
-              </div>
-              <div className={aboutclasses.paragraph}>
-                  <Paper className={aboutclasses.paper} elevation={2} square >
-                      <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
                           Kwartaal 3
                       </Typography>
                       <TableContainer>
@@ -317,7 +27,7 @@ const Agenda = () => {
                                       2 juli
                                       </TableCell>
                                       <TableCell>
-                                      officiële dressuurwedstrijd (zaterdag)
+                                      officiële dressuurwedstrijd
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -338,10 +48,10 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      28 juli en 11 augustus
+                                      28 juli
                                       </TableCell>
                                       <TableCell>
-                                      geen lesavond i.v.m. zomervakantie
+                                      lesavond
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -362,10 +72,46 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      28 augustus
+                                      8 september
                                       </TableCell>
                                       <TableCell>
-                                      1 jarig bestaan + clinic Hergen van Hall
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      15 september
+                                      </TableCell>
+                                      <TableCell>
+                                      sponsor borrel
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      22 september
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                       25 september
+                                      </TableCell>
+                                      <TableCell>
+                                      1 jarig bestaan!!!!
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -373,6 +119,127 @@ const Agenda = () => {
                                       </TableCell>
                                   </TableRow>
                               </TableBody>
+                          </Table>
+                      </TableContainer>
+                  </Paper>
+              </div>
+              <div className={aboutclasses.paragraph}>
+                  <Paper className={aboutclasses.paper} elevation={2} square >
+                      <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
+                          Kwartaal 4
+                      </Typography>
+                      <TableContainer>
+                          <Table className={tableClasses.table} aria-label='data table'>
+                                <TableBody>
+                                  <TableRow>
+                                      <TableCell>
+                                      6 oktober
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      20 oktober
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      27 oktober
+                                      </TableCell>
+                                      <TableCell>
+                                      algemene ledenvergadering
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      3 november
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      17 november
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      1 december
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      10 december
+                                      </TableCell>
+                                      <TableCell>
+                                      selectie wedstrijd dressuur pony's
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      15 december
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      29 december
+                                      </TableCell>
+                                      <TableCell>
+                                      vakantie/geen les
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                </TableBody>
                           </Table>
                       </TableContainer>
                   </Paper>

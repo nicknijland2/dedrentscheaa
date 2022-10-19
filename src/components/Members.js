@@ -30,7 +30,7 @@ const Members = () => {
                             &nbsp;
                             <a href="mailto:secretaris.lrdedrentscheaa@gmail.com" >secretaris.lrdedrentscheaa@gmail.com</a></Typography> 
                           
-                           <Button style={{marginTop:'20px'}} variant="contained" size="large" onClick={()=> openPdf('/Aanmeldingsformulier.pdf')}>Aanmeldformulier downloaden</Button>
+                           <Button style={{marginTop:'20px'}} variant="contained" size="large" onClick={()=> openPdf('/Aanmeldingsformulier.pdf')}>Aanmeldigsformulier downloaden</Button>
                         </Paper>
                   </div>
                     <div className={classes.paragraph}>
@@ -219,9 +219,6 @@ const Members = () => {
                         <Paper className={classes.paper} elevation={2} square >
                             <Typography className={classes.lessonHeader} gutterBottom variant="h5">
                                 Lessen
-                            </Typography>
-                            <Typography className={classes.text} gutterBottom variant="body1">
-                            € 120,00 per kwartaal voor 1x per week les in kleine groepen.
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
                             € 60,00 per kwartaal voor 1x per 2 weken les in kleine groepen.

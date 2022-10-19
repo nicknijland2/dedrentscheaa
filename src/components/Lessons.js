@@ -29,11 +29,8 @@ const Lessons = () => {
                              Pony’s
                           </Typography>
                             <Typography className={classes.text} variant='body1' >
-                               Donderdag: 18:30 - 19:30  
+                               Donderdag: 19:00 - 20:00 springles  
                            </Typography>
-                           <Typography className={classes.text} variant='body1' >
-                               Donderdag: 19:30 - 20:30  
-                           </Typography> 
                         </Paper>
                   </div>
                   <div className={classes.paragraph}>
@@ -42,10 +39,10 @@ const Lessons = () => {
                              Paarden
                           </Typography>
                             <Typography className={classes.text} variant='body1' >
-                               Donderdag: 18:30 - 19:30  
+                               Donderdag: 19:00 - 20:00  
                            </Typography> 
                            <Typography className={classes.text} variant='body1' >
-                               Donderdag: 19:30 - 20:30  
+                               Donderdag: 20:00 - 21:00 2x  
                            </Typography> 
                       </Paper>
                   </div>
