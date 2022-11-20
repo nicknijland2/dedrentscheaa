@@ -244,6 +244,31 @@ const Agenda = () => {
                       </TableContainer>
                   </Paper>
               </div>
+              <div className={aboutclasses.paragraph}>
+                  <Paper className={aboutclasses.paper} elevation={2} square >
+                      <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
+                          Kwartaal 1 2023
+                      </Typography>
+                      <TableContainer>
+                          <Table className={tableClasses.table} aria-label='data table'>
+                                <TableBody>
+                                  <TableRow>
+                                      <TableCell>
+                                      21 januari
+                                      </TableCell>
+                                      <TableCell>
+                                      Effectief losrijden + springclinic
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>                                
+                                </TableBody>
+                          </Table>
+                      </TableContainer>
+                  </Paper>
+              </div>
           </Grid>
       </Grid>
   </div>

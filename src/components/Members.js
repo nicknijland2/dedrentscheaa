@@ -59,16 +59,16 @@ const Members = () => {
                                     <TableBody>
                                         <TableRow>
                                             <TableCell>
-                                            € 25,00
+                                            € 27,50
                                             </TableCell>
                                             <TableCell>
-                                            € 26,25
+                                            € 27,50
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 54,75
+                                            € 58,50
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -102,16 +102,16 @@ const Members = () => {
                                     <TableBody>
                                         <TableRow>
                                             <TableCell>
-                                            € 20,00
+                                            € 22,50
                                             </TableCell>
                                             <TableCell>
-                                            € 26,25
+                                            € 27,50
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 49,75
+                                            € 53,50
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -145,16 +145,16 @@ const Members = () => {
                                     <TableBody>
                                         <TableRow>
                                             <TableCell>
-                                            € 20,00
+                                            € 22,50
                                             </TableCell>
                                             <TableCell>
-                                            € 26,25
+                                            € 27,50
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 49,75
+                                            € 53,50
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -188,16 +188,16 @@ const Members = () => {
                                     <TableBody>
                                         <TableRow>
                                             <TableCell>
-                                            € 15,00
+                                            € 17,50
                                             </TableCell>
                                             <TableCell>
-                                            € 26,25
+                                            € 27,50
                                             </TableCell>
                                             <TableCell>
                                             € 3,50
                                             </TableCell>
                                             <TableCell align="right">
-                                            € 44,75
+                                            € 48,50
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -221,13 +221,16 @@ const Members = () => {
                                 Lessen
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
-                            € 60,00 per kwartaal voor 1x per 2 weken les in kleine groepen.
+                            € 69,00 per kwartaal voor 1x per 2 weken groepsles.
+                            </Typography>
+                            <Typography className={classes.text} gutterBottom variant="body1">
+                            € 138,00 per kwartaal voor 1x per week groepsles.
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
                             De lessen gaan het gehele jaar door met uitzondering van 4 weken vakantie (1 week kerstvakantie en 3 weken zomervakantie).
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
-                            De opzegtermijn van de lessen bedraagt 1 volledig kwartaal. Voorbeeld: wordt in februari opgezegd, dan worden de lessen en betaling stopgezet per 1 juli.
+                            De opzegtermijn van de lessen bedraagt 1 volledig kwartaal. Voorbeeld: wordt in februari opgezegd, dan worden de lessen en betaling stopgezet per 1 april.
                             </Typography>
                             <Typography className={classes.text} gutterBottom variant="body1">
                                 De contributie en overige lidmaatschapskosten worden geïncasseerd via automatische incasso.
@@ -238,7 +241,7 @@ const Members = () => {
                     <div className={classes.paragraph}>
                         <Paper className={classes.paper} elevation={2} square >
                             <Typography className={classes.text} gutterBottom variant="body1">
-                                Bij inschrijving wordt eenmalig een bedrag van € 2,50 in rekening gebracht.
+                                Bij inschrijving wordt eenmalig een bedrag van € 5,00 in rekening gebracht.
                             </Typography>
                         </Paper>
                     </div>

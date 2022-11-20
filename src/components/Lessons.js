@@ -42,7 +42,7 @@ const Lessons = () => {
                                Donderdag: 19:00 - 20:00  
                            </Typography> 
                            <Typography className={classes.text} variant='body1' >
-                               Donderdag: 20:00 - 21:00 2x  
+                               Donderdag: 20:00 - 21:00  
                            </Typography> 
                       </Paper>
                   </div>
