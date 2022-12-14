@@ -1,10 +1,19 @@
 import Header from "./common/Header";
 import { useGenericWrapper,useAboutStyles } from "../styles/overRides";
-import { Grid, Typography,Paper } from "@material-ui/core";
+import { Button, Grid, Typography,Paper } from "@material-ui/core";
 const Lessons = () => {
     console.log("Lessons Loaded");
     const generics = useGenericWrapper()
     const classes = useAboutStyles();
+
+    const openPdf = (file) =>{
+        //window.location.href = file;
+        var link = document.createElement('a');
+        link.href = file;
+        link.download = 'Reglement_verenigingslessen.pdf';
+        link.dispatchEvent(new MouseEvent('click'));
+    }
+
     return (
         <div className={generics.root}>
           <Grid container spacing={4}>
@@ -21,6 +30,7 @@ const Lessons = () => {
                                Uiteraard is deze accommodatie in het bezit van het veiligheidscertificaat. 
                                Zowel springen als dressuurles behoort tot de mogelijkheden.
                             </Typography>
+                            <Button style={{marginTop:'20px'}} variant="contained" size="large" onClick={()=> openPdf('/Reglement_verenigingslessen.pdf')}>Reglement verenigingslessen</Button>
                         </Paper>
                   </div>
                   <div className={classes.paragraph}>
