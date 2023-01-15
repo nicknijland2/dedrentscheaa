@@ -18,7 +18,7 @@ import Impex from '../images/Impex.png';
 import LOGO1 from '../images/1-drenthe.jpeg';
 import LOGO2 from '../images/2-koolen.jpeg';
 import LOGO3 from '../images/3-reus.jpeg';
-import LOGO4 from '../images/4-om.jpeg';
+//import LOGO4 from '../images/4-om.jpeg';
 
 
 const Footer = (props) => {
@@ -97,11 +97,6 @@ return(
 
           <Grid  item>
               <div className={classes.imgHolder} >
-              <a href="https://huzen.com/" target="_blank">  <img alt="sponsor" className={classes.img} src={LOGO4} /></a>
-              </div>
-          </Grid>
-          <Grid  item>
-              <div className={classes.imgHolder} >
               <a href="https://ditverkoopik.nl/" target="_blank">  <img alt="sponsor" className={classes.img} src={DI} /></a>
               </div>
           </Grid>
@@ -110,11 +105,7 @@ return(
            
           
        </Grid>
-       <Grid alignItems="center" justifyContent="center" container spacing={3} style={{marginTop:'2em'}}>
-            <Typography gutterBottom variant="body1">
-                Ontwerp en ontwikkeling bij     <a href="#"><img src="/nyland-thumb.jpg" alt="nyland thumb" style={{marginLeft:"2px",position:"absolute"}} /></a>
-            </Typography>    
-       </Grid>
+
     </div>
 )} 
 
