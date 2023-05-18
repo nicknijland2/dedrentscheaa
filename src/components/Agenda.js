@@ -11,32 +11,20 @@ const Agenda = () => {
       <div className={generics.root} style={{marginTop:'80px'}}>
       <Grid container spacing={4}>
       <Grid item xs={12}>
-                  <Header title={`Agenda 2022`} />
+                  <Header title={`Agenda 2023`} />
               </Grid>
               <Grid item xs={12}>
               <div className={aboutclasses.paragraph}>
                   <Paper className={aboutclasses.paper} elevation={2} square >
                       <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
-                          Kwartaal 3
+                          Kwartaal 2
                       </Typography>
                       <TableContainer>
                           <Table className={tableClasses.table} aria-label='data table'>
                                 <TableBody>
                                   <TableRow>
                                       <TableCell>
-                                      2 juli
-                                      </TableCell>
-                                      <TableCell>
-                                      officiële dressuurwedstrijd
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      14 juli
+                                      6 april
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -48,7 +36,7 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      28 juli
+                                      20 april
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -60,7 +48,19 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      25 augustus
+                                      22 april
+                                      </TableCell>
+                                      <TableCell>
+                                      schriktraining Stal Koolen
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      4 mei
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -72,7 +72,19 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      8 september
+                                      18 mei
+                                      </TableCell>
+                                      <TableCell>
+                                      geen les Hemelvaart
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      1 juni
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -84,19 +96,7 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      15 september
-                                      </TableCell>
-                                      <TableCell>
-                                      sponsor borrel
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      22 september
+                                      15 juni
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -108,10 +108,10 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                       25 september
+                                       29 juni
                                       </TableCell>
                                       <TableCell>
-                                      1 jarig bestaan!!!!
+                                      lesavond
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -126,14 +126,14 @@ const Agenda = () => {
               <div className={aboutclasses.paragraph}>
                   <Paper className={aboutclasses.paper} elevation={2} square >
                       <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
-                          Kwartaal 4
+                          Kwartaal 3
                       </Typography>
                       <TableContainer>
                           <Table className={tableClasses.table} aria-label='data table'>
                                 <TableBody>
                                   <TableRow>
                                       <TableCell>
-                                      6 oktober
+                                      13 juli
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -145,7 +145,7 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      20 oktober
+                                      27 juli
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -157,10 +157,10 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      27 oktober
+                                      10 augustus
                                       </TableCell>
                                       <TableCell>
-                                      algemene ledenvergadering
+                                      geen les zomervakantie
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
@@ -169,7 +169,31 @@ const Agenda = () => {
                                   </TableRow>
                                   <TableRow>
                                       <TableCell>
-                                      3 november
+                                      24 augustus 
+                                      </TableCell>
+                                      <TableCell>
+                                      geen les zomervakantie
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      7 september
+                                      </TableCell>
+                                      <TableCell>
+                                      geen les zomervakantie
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      21 september
                                       </TableCell>
                                       <TableCell>
                                       lesavond
@@ -179,67 +203,7 @@ const Agenda = () => {
                                       <TableCell>
                                       </TableCell>
                                   </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      17 november
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      1 december
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      10 december
-                                      </TableCell>
-                                      <TableCell>
-                                      selectie wedstrijd dressuur pony's
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      15 december
-                                      </TableCell>
-                                      <TableCell>
-                                      lesavond
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                  <TableRow>
-                                      <TableCell>
-                                      29 december
-                                      </TableCell>
-                                      <TableCell>
-                                      vakantie/geen les
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                      <TableCell>
-                                      </TableCell>
-                                  </TableRow>
-                                </TableBody>
+                                  </TableBody>
                           </Table>
                       </TableContainer>
                   </Paper>
@@ -247,23 +211,95 @@ const Agenda = () => {
               <div className={aboutclasses.paragraph}>
                   <Paper className={aboutclasses.paper} elevation={2} square >
                       <Typography className={aboutclasses.lessonHeader} gutterBottom variant="h5">
-                          Kwartaal 1 2023
+                          Kwartaal 4
                       </Typography>
                       <TableContainer>
                           <Table className={tableClasses.table} aria-label='data table'>
                                 <TableBody>
                                   <TableRow>
                                       <TableCell>
-                                      21 januari
+                                      5 oktober
                                       </TableCell>
                                       <TableCell>
-                                      Effectief losrijden + springclinic
-                                      </TableCell>
-                                      <TableCell>
+                                      lesavond
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
-                                  </TableRow>                                
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      19 oktober
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      2 november
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      16 november
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      30 november
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      14 december
+                                      </TableCell>
+                                      <TableCell>
+                                      lesavond
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
+                                  <TableRow>
+                                      <TableCell>
+                                      28 december
+                                      </TableCell>
+                                      <TableCell>
+                                      geen les Kerstvakantie
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                      <TableCell>
+                                      </TableCell>
+                                  </TableRow>
                                 </TableBody>
                           </Table>
                       </TableContainer>
