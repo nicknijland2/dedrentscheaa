@@ -184,7 +184,7 @@ const Agenda = () => {
                                       7 september
                                       </TableCell>
                                       <TableCell>
-                                      geen les zomervakantie
+                                      lesavond
                                       </TableCell>
                                       <TableCell>
                                       </TableCell>
